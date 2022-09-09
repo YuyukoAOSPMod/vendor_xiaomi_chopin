@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/xiaomi/chopin/proprietary/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml \
     vendor/xiaomi/chopin/proprietary/etc/fiveG-apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/fiveG-apns-conf.xml \
+    vendor/xiaomi/chopin/proprietary/etc/init/duraspeed.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/duraspeed.rc \
     vendor/xiaomi/chopin/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/xiaomi/chopin/proprietary/etc/xcap-apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/xcap-apns-conf.xml \
     vendor/xiaomi/chopin/proprietary/lib/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_audio_jni.so \
@@ -52,6 +53,8 @@ PRODUCT_PACKAGES += \
     EngineerMode \
     ImsService \
     LPPeService \
+    DuraSpeed \
+    duraspeed \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
