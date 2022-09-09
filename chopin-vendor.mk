@@ -44,7 +44,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/xiaomi/chopin/proprietary/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
     vendor/xiaomi/chopin/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/chopin/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+    vendor/xiaomi/chopin/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/xiaomi/chopin/proprietary/product/vendor_overlay/31/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/31/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
 
 PRODUCT_PACKAGES += \
     LocationEM2 \
@@ -55,8 +56,8 @@ PRODUCT_PACKAGES += \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
+    mediatek-ims-extension-plugin \
+    mediatek-ims-legacy \
     mediatek-telecom-common \
     mediatek-telephony-base \
-    mediatek-telephony-common \
-    mediatek-ims-extension-plugin \
-    mediatek-ims-legacy
+    mediatek-telephony-common
